@@ -1,0 +1,9 @@
+{
+	"name": "dev01cloud",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1e0bb526-9a35-4a3a-8494-1261e26b1b28",
+		"tenantId": "7a8c2f79-dbfb-4375-86e3-a25021ac9e46"
+	}
+}

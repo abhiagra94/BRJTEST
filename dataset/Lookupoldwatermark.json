@@ -1,0 +1,22 @@
+{
+	"name": "Lookupoldwatermark",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "oldwatermark",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "watermark"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
