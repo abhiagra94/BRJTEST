@@ -1,0 +1,6 @@
+{
+	"name": "mycomputerintegrationruntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
